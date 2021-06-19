@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de masa corporal</title>
+</head>
+<body>
+    <h1>Indice de masa corporal</h1>
+    <form action="">
+        <p>
+            <label for="peso">¿Cuál es tu peso?</label>
+            <input type="number" name="peso" placeholder="70" id="peso"> kg
+        </p>
+        <p>
+            <label for="estatura">¿Cuál es tu estatura?</label>
+            <input type="number" step=".01" name="estatura" placeholder="1.75" id="estatura"> m
+        </p>
+        <p>
+            <input type="button" value="Calcular indice de masa corporal" id="calcular_imc">
+        </p>
+    </form>
+    <p id="resultado1"></p>
+    <p id="resultado2"></p>
+    <script src = "assets/js/imc.js"></script>
+</body>
+</html>
